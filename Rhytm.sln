@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhytm", "Rhytm\Rhytm.csproj", "{3AAECFEE-248C-4663-9AD2-305ED94DB229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AAECFEE-248C-4663-9AD2-305ED94DB229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAECFEE-248C-4663-9AD2-305ED94DB229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAECFEE-248C-4663-9AD2-305ED94DB229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAECFEE-248C-4663-9AD2-305ED94DB229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B4BCCF2-F740-4ABE-BC91-92CBB70A6BDD}
+	EndGlobalSection
+EndGlobal
