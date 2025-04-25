@@ -3,6 +3,10 @@ namespace Rhytm.Models
 {
     public class RhytmContext:DbContext
     {
+        public RhytmContext(DbContextOptions<RhytmContext> options) : base(options)
+        {
+            Database.EnsureCreated();
+        }
         public virtual DbSet<Track> Tracks { get; set; }
         public virtual DbSet<Artist> Artists { get; set; }
         public virtual DbSet<User> User { get; set; }

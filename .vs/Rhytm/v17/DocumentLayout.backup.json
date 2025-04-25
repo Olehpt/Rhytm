@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Projects\\Rhytm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\rhytmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\rhytmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\playlistlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\playlistlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,32 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Program.cs",
+              "RelativeDocumentMoniker": "Rhytm\\Program.cs",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Program.cs",
+              "RelativeToolTip": "Rhytm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:44:41.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\appsettings.json",
+              "RelativeDocumentMoniker": "Rhytm\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\appsettings.json",
+              "RelativeToolTip": "Rhytm\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T16:41:50.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RhytmContext.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\RhytmContext.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\RhytmContext.cs",
               "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Models\\RhytmContext.cs",
               "RelativeToolTip": "Rhytm\\Models\\RhytmContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T16:30:06.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LikedLink.cs",
-              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\LikedLink.cs",
-              "RelativeDocumentMoniker": "Rhytm\\Models\\LikedLink.cs",
-              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Models\\LikedLink.cs",
-              "RelativeToolTip": "Rhytm\\Models\\LikedLink.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:19:17.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PlaylistLink.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\PlaylistLink.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\PlaylistLink.cs",
@@ -89,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Playlist.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Playlist.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Playlist.cs",
@@ -102,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Authorship.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Authorship.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Authorship.cs",
@@ -115,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Artist.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Artist.cs",
@@ -128,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\User.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\User.cs",
@@ -141,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Genre.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Genre.cs",
@@ -155,6 +176,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LikedLink.cs",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\LikedLink.cs",
+              "RelativeDocumentMoniker": "Rhytm\\Models\\LikedLink.cs",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Models\\LikedLink.cs",
+              "RelativeToolTip": "Rhytm\\Models\\LikedLink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:19:17.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Track.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Track.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Track.cs",
