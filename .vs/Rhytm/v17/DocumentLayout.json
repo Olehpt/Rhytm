@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\Projects\\Rhytm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\migrations\\20250428114805_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\migrations\\20250428114805_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\authorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\authorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\playlistlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\playlistlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\rhytmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\rhytmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +35,16 @@
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\contextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\contextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\authorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\authorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\likedlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\models\\playlistlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\models\\playlistlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,50 +62,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "20250428114805_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Migrations\\20250428114805_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Rhytm\\Migrations\\20250428114805_InitialCreate.cs",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Migrations\\20250428114805_InitialCreate.cs",
+              "RelativeToolTip": "Rhytm\\Migrations\\20250428114805_InitialCreate.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:52:02.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContextFactory.cs",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\ContextFactory.cs",
+              "RelativeDocumentMoniker": "Rhytm\\ContextFactory.cs",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\ContextFactory.cs",
+              "RelativeToolTip": "Rhytm\\ContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:42:53.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Program.cs",
               "RelativeDocumentMoniker": "Rhytm\\Program.cs",
               "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Program.cs",
               "RelativeToolTip": "Rhytm\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T16:44:41.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\appsettings.json",
               "RelativeDocumentMoniker": "Rhytm\\appsettings.json",
               "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\appsettings.json",
               "RelativeToolTip": "Rhytm\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-23T16:41:50.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "RhytmContext.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\RhytmContext.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\RhytmContext.cs",
               "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Models\\RhytmContext.cs",
               "RelativeToolTip": "Rhytm\\Models\\RhytmContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T16:30:06.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "PlaylistLink.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\PlaylistLink.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\PlaylistLink.cs",
@@ -105,11 +139,12 @@
               "RelativeToolTip": "Rhytm\\Models\\PlaylistLink.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:18:21.961Z"
+              "WhenOpened": "2025-04-23T16:18:21.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Playlist.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Playlist.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Playlist.cs",
@@ -117,11 +152,12 @@
               "RelativeToolTip": "Rhytm\\Models\\Playlist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:16:27.055Z"
+              "WhenOpened": "2025-04-23T16:16:27.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Authorship.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Authorship.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Authorship.cs",
@@ -129,11 +165,12 @@
               "RelativeToolTip": "Rhytm\\Models\\Authorship.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:11:35.899Z"
+              "WhenOpened": "2025-04-23T16:11:35.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Artist.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Artist.cs",
@@ -141,11 +178,12 @@
               "RelativeToolTip": "Rhytm\\Models\\Artist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:10:11.548Z"
+              "WhenOpened": "2025-04-23T16:10:11.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\User.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\User.cs",
@@ -157,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Genre.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Genre.cs",
@@ -169,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "LikedLink.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\LikedLink.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\LikedLink.cs",
@@ -181,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Track.cs",
               "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Models\\Track.cs",
               "RelativeDocumentMoniker": "Rhytm\\Models\\Track.cs",
