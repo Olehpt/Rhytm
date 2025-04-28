@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Rhytm.Models;
 
@@ -11,9 +12,10 @@ using Rhytm.Models;
 namespace Rhytm.Migrations
 {
     [DbContext(typeof(RhytmContext))]
-    partial class RhytmContextModelSnapshot : ModelSnapshot
+    [Migration("20250428122912_RolesAdded")]
+    partial class RolesAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -8,5 +8,7 @@
         public string Password { get; set; }
         public string? ProfilePicturePath { get; set; }
         public DateTime SignUpDate { get; set; }
+        public int RoleId { get; set; }
+        public Role Role { get; set; } 
     }
 }
