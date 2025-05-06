@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -170,6 +173,11 @@ namespace Rhytm.Controllers
         public async Task<IActionResult> Register(User user)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
+            var existingUser = _context.User.FirstOrDefault(u => u.Email == user.Email);
+            if (existingUser != null)
+            {
+                return BadRequest("User with this email already exists");
+            }
             user.SignUpDate = DateTime.Now;
             user.RoleId = 1;
             user.ProfilePicturePath = null;
@@ -181,15 +189,29 @@ namespace Rhytm.Controllers
         public async Task<IActionResult> Login(User user)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
-            if (!await _context.User.AnyAsync(u => u.Email == user.Email))
+            var existingUser = _context.User.FirstOrDefault(u => u.Email == user.Email);
+            if (existingUser == null)
             {
-                return BadRequest("Wrong email");
+                return BadRequest("User not found");
             }
-            if (!await _context.User.AnyAsync(u => u.Password == user.Password))
+            if (existingUser.Password != user.Password)
             {
-                return BadRequest("Wrong password");
+                return BadRequest("Invalid password");
             }
             //login logic
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, existingUser.Name),
+                new Claim(ClaimTypes.Email, existingUser.Email),
+                new Claim(ClaimTypes.Role, existingUser.RoleId.ToString())
+            };
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = true
+            };
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,new ClaimsPrincipal(claimsIdentity), authProperties);
+            //
             return Ok(user);
         }
     }
