@@ -868,6 +868,22 @@
   },
   {
     "ContainingType": "Rhytm.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Rhytm.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rhytm.Controllers.UsersController",
     "Method": "Register",
     "RelativePath": "api/Users/register",
     "HttpMethod": "POST",
