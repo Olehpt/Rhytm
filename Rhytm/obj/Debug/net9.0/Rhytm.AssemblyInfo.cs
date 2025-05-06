@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rhytm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26735de95c26caf3ea74445e116091c196395830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97e0d1499c5f3cef958e32babe0fcdfcae13686e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rhytm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rhytm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

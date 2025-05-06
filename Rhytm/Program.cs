@@ -3,11 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllersWithViews();
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<RhytmContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddControllersWithViews();
+
 
 var app = builder.Build();
 
@@ -24,9 +25,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
-app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+app.UseAuthorization();
 
 app.MapRazorPages();
 

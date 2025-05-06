@@ -9,6 +9,8 @@ using Rhytm.Models;
 
 namespace Rhytm.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UsersController : Controller
     {
         private readonly RhytmContext _context;
@@ -17,14 +19,13 @@ namespace Rhytm.Controllers
         {
             _context = context;
         }
-
+        /*
         // GET: Users
         public async Task<IActionResult> Index()
         {
             var rhytmContext = _context.User.Include(u => u.Role);
             return View(await rhytmContext.ToListAsync());
         }
-
         // GET: Users/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -158,6 +159,38 @@ namespace Rhytm.Controllers
         private bool UserExists(int id)
         {
             return _context.User.Any(e => e.Id == id);
+        }
+        */
+        [HttpGet("count")]
+        public int UserCount()
+        {
+            return _context.User.Count();
+        }
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(User user)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            user.SignUpDate = DateTime.Now;
+            user.RoleId = 1;
+            user.ProfilePicturePath = null;
+            _context.User.Add(user);
+            await _context.SaveChangesAsync();
+            return Ok(user);
+        }
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(User user)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!await _context.User.AnyAsync(u => u.Email == user.Email))
+            {
+                return BadRequest("Wrong email");
+            }
+            if (!await _context.User.AnyAsync(u => u.Password == user.Password))
+            {
+                return BadRequest("Wrong password");
+            }
+            //login logic
+            return Ok(user);
         }
     }
 }

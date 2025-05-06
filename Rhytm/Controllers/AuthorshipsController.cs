@@ -9,6 +9,8 @@ using Rhytm.Models;
 
 namespace Rhytm.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AuthorshipsController : Controller
     {
         private readonly RhytmContext _context;

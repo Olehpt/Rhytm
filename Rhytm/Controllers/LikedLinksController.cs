@@ -9,6 +9,8 @@ using Rhytm.Models;
 
 namespace Rhytm.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class LikedLinksController : Controller
     {
         private readonly RhytmContext _context;
