@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Rhytm/css/mysyles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\mysyles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2kLiDCEmaMi5gUIwf8qkcxzWHfWoy\u002BqZ2m2r\u002BZep3/8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1220"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222kLiDCEmaMi5gUIwf8qkcxzWHfWoy\u002BqZ2m2r\u002BZep3/8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 13:30:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Rhytm/css/mysyles.qb4dm8fmsx.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\mysyles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qb4dm8fmsx"},{"Name":"integrity","Value":"sha256-2kLiDCEmaMi5gUIwf8qkcxzWHfWoy\u002BqZ2m2r\u002BZep3/8="},{"Name":"label","Value":"_content/Rhytm/css/mysyles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1220"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222kLiDCEmaMi5gUIwf8qkcxzWHfWoy\u002BqZ2m2r\u002BZep3/8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 13:30:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Rhytm/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

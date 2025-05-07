@@ -3,30 +3,36 @@
 @{
 }
 
-<h2>Register</h2>
-<form method="post">
-	<div>
-		<label>Username:</label>
-		<input asp-for="user.Name" />
-		<span asp-validation-for="user.Name"></span>
-	</div>
-	<div>
-		<label>Email:</label>
-		<input asp-for="user.Email" />
-		<span asp-validation-for="user.Email"></span>
-	</div>
-	<div>
-		<label>Password:</label>
-		<input asp-for="user.Password" />
-		<span asp-validation-for="user.Password"></span>
-	</div>
-	<button type="submit">Sign up</button>
-</form>
+<div style="display:flex; justify-content:center">
+	<form method="post" class="SingleColumn">
+		<h2 style="font-size:32px">Реєстрація</h2>
+		<div class="InputForm">
+			<div class="InputField">
+				<label>Username</label>
+				<input asp-for="user.Name" autocomplete="off" />
+				<span asp-validation-for="user.Name" class="ValidationMessage"></span>
+			</div>
+			<div class="InputField">
+				<label>Email</label>
+				<input asp-for="user.Email" autocomplete="off" />
+				<span asp-validation-for="user.Email" class="ValidationMessage"></span>
+			</div>
+			<div class="InputField">
+				<label>Password</label>
+				<input asp-for="user.Password" autocomplete="off" />
+				<span asp-validation-for="user.Password" class="ValidationMessage"></span>
+			</div>
+			<div class="InputField">
+				<label>Confirm password</label>
+				<input asp-for="ConfirmPasswordField" autocomplete="off" />
+				<p class="ValidationMessage">@Model.ConfirmPasswordMessage</p>
+			</div>
+		</div>
+		<button class="ButtonStandard" type="submit">Sign up</button>
+	</form>
+</div>
 
-@if (Model.message != null)
-{
-	<p>@Model.message</p>
-}
+
 
 @section Scripts {
 	<partial name="_ValidationScriptsPartial" />

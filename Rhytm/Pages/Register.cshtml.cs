@@ -14,17 +14,23 @@ namespace Rhytm.Pages
         public void OnGet() { }
         [BindProperty]
         public User user { get; set; } = new User();
-        public string message { get; set; } 
+        [BindProperty]
+        public string ConfirmPasswordField { get; set; }
+        public string ConfirmPasswordMessage { get; set; } 
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid) return Page();
+            if (user.Password != ConfirmPasswordField)
+            {
+                ConfirmPasswordMessage = "Passwords do not match";
+                return Page();
+            }
             var response = await _httpClient.PostAsJsonAsync("register", user);
             if (response.IsSuccessStatusCode)
             {
-                message = "Succes. New user in database";
-                return Page();
+                return RedirectToPage("/Index");
             }
-            message = "Error: " + await response.Content.ReadAsStringAsync();
+            ConfirmPasswordMessage = "Error: " + await response.Content.ReadAsStringAsync();
             return Page();
         }
     }

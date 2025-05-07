@@ -301,6 +301,304 @@
       ]
     },
     {
+      "Route": "css/mysyles.css",
+      "AssetFile": "css/mysyles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002096436059"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4Omq1SXwcRWerid2oJHrNfYGbE6DBNIjcttFw8Jj8Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 13:30:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8="
+        }
+      ]
+    },
+    {
+      "Route": "css/mysyles.css",
+      "AssetFile": "css/mysyles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 13:30:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8="
+        }
+      ]
+    },
+    {
+      "Route": "css/mysyles.css.gz",
+      "AssetFile": "css/mysyles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4Omq1SXwcRWerid2oJHrNfYGbE6DBNIjcttFw8Jj8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 13:30:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4Omq1SXwcRWerid2oJHrNfYGbE6DBNIjcttFw8Jj8Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/mysyles.qb4dm8fmsx.css",
+      "AssetFile": "css/mysyles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002096436059"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4Omq1SXwcRWerid2oJHrNfYGbE6DBNIjcttFw8Jj8Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 13:30:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qb4dm8fmsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8="
+        },
+        {
+          "Name": "label",
+          "Value": "css/mysyles.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/mysyles.qb4dm8fmsx.css",
+      "AssetFile": "css/mysyles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 13:30:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qb4dm8fmsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2kLiDCEmaMi5gUIwf8qkcxzWHfWoy+qZ2m2r+Zep3/8="
+        },
+        {
+          "Name": "label",
+          "Value": "css/mysyles.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/mysyles.qb4dm8fmsx.css.gz",
+      "AssetFile": "css/mysyles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x4Omq1SXwcRWerid2oJHrNfYGbE6DBNIjcttFw8Jj8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 13:30:10 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qb4dm8fmsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x4Omq1SXwcRWerid2oJHrNfYGbE6DBNIjcttFw8Jj8Y="
+        },
+        {
+          "Name": "label",
+          "Value": "css/mysyles.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [

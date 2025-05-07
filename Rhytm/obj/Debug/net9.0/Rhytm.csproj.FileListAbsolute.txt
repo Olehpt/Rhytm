@@ -349,3 +349,4 @@ D:\Projects\Rhytm\Rhytm\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Phys
 D:\Projects\Rhytm\Rhytm\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\Projects\Rhytm\Rhytm\obj\Debug\net9.0\compressed\81i4uf539p-ho3l2doxw0.gz
 D:\Projects\Rhytm\Rhytm\obj\Debug\net9.0\compressed\amx3awztao-ho3l2doxw0.gz
+D:\Projects\Rhytm\Rhytm\obj\Debug\net9.0\compressed\j42zuhq1pj-qb4dm8fmsx.gz

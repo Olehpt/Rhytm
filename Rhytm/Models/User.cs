@@ -10,6 +10,7 @@ namespace Rhytm.Models
         public string Name { get; set; }
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Email must be valid")]
+        [RegularExpression(@"^[^@\s]+@gmail\.com$", ErrorMessage = "Email must be valid")]
         public string Email { get; set; }
         [Required(ErrorMessage = "Password is required")]
         [MinLength(6, ErrorMessage = "Password must be at least 6 characters long")]

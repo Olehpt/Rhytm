@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\Rhytm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\wwwroot\\css\\mysyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\wwwroot\\css\\mysyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|d:\\projects\\rhytm\\rhytm\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AAECFEE-248C-4663-9AD2-305ED94DB229}|Rhytm\\Rhytm.csproj|solutionrelative:rhytm\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Rhytm\\Pages\\Register.cshtml.cs",
-              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Register.cshtml.cs",
-              "RelativeToolTip": "Rhytm\\Pages\\Register.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:03:39.172Z",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Rhytm\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Rhytm\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T11:28:17.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Rhytm\\Pages\\Login.cshtml.cs",
-              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "Rhytm\\Pages\\Login.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:03:28.796Z",
+              "Title": "mysyles.css",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\wwwroot\\css\\mysyles.css",
+              "RelativeDocumentMoniker": "Rhytm\\wwwroot\\css\\mysyles.css",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\wwwroot\\css\\mysyles.css",
+              "RelativeToolTip": "Rhytm\\wwwroot\\css\\mysyles.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-07T10:45:45.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "Rhytm\\Pages\\Login.cshtml",
-              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Login.cshtml",
-              "RelativeToolTip": "Rhytm\\Pages\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Register.cshtml",
+              "RelativeDocumentMoniker": "Rhytm\\Pages\\Register.cshtml",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Register.cshtml",
+              "RelativeToolTip": "Rhytm\\Pages\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T15:03:27.484Z",
+              "WhenOpened": "2025-05-07T10:15:47.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Rhytm\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Rhytm\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAYwLEAAAANAAAAAAAAAA==",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Rhytm\\Pages\\Register.cshtml.cs",
+              "ToolTip": "D:\\Projects\\Rhytm\\Rhytm\\Pages\\Register.cshtml.cs",
+              "RelativeToolTip": "Rhytm\\Pages\\Register.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:01:26.001Z",
+              "WhenOpened": "2025-05-06T15:03:39.172Z",
               "EditorCaption": ""
             }
           ]

@@ -25,6 +25,7 @@ D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Projects\Rhytm\Rhytm\wwwroot\css\mysyles.css
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -57,6 +58,7 @@ D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\css\mysyles.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

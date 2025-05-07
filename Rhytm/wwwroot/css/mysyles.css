@@ -1,0 +1,73 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.SingleColumn {
+    background-color: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 652px;
+    height: 100vh;
+    gap: 135px;
+}
+
+.ButtonStandard {
+    background-color: #414141;
+    color: white;
+    border: 0px;
+    border-radius: 41px;
+    width: 181px;
+    height: 61px;
+    font-size:20px;
+}
+
+.InputForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.InputField input {
+    background-color: #414141;
+    border: 0px;
+    border-radius: 58px;
+    width: 555px;
+    height: 47px;
+    padding-left: 18px;
+    color: white;
+}
+
+.InputField input:focus{
+    outline: none;
+    background-color: #595959;
+}
+
+.InputField > * {
+    display:block;
+}
+
+.InputField label{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.ValidationMessage {
+    margin-top:5px;
+    min-height: 2em;
+    color: red;
+    visibility: hidden;
+}
+
+.ValidationMessage:empty {
+    visibility: hidden;
+}
+
+.ValidationMessage:not(:empty) {
+    visibility: visible;
+}
