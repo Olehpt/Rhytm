@@ -2,24 +2,24 @@
 @model Rhytm.Pages.LoginModel
 @{
 }
-<h2>Login</h2>
-<form method="post">
-	<div>
-		<label>Email:</label>
-		<input asp-for="user.Email" />
-		<span asp-validation-for="user.Email"></span>
-	</div>
-	<div>
-		<label>Password:</label>
-		<input asp-for="user.Password" />
-		<span asp-validation-for="user.Password"></span>
-	</div>
-	<button type="submit">Sign in</button>
-</form>
-@if (Model.message != null)
-{
-	<p>@Model.message</p>
-}
+<div style="display:flex; justify-content:center">
+	<form method="post" class="SingleColumn">
+		<h2 style="font-size:32px">Login</h2>
+		<div class="InputForm">
+			<div class="InputField">
+				<label>Email</label>
+				<input asp-for="user.Email" autocomplete="off" />
+				<span asp-validation-for="user.Email" class="ValidationMessage"></span>
+			</div>
+			<div class="InputField">
+				<label>Password</label>
+				<input asp-for="user.Password" autocomplete="off" />
+				<span asp-validation-for="user.Password" class="ValidationMessage"></span>
+			</div>
+		</div>
+		<button class="ButtonStandard" type="submit">Sign in</button>
+	</form>
+</div>
 
 @section Scripts {
 	<partial name="_ValidationScriptsPartial" />

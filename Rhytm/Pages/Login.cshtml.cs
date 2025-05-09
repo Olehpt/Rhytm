@@ -17,17 +17,14 @@ namespace Rhytm.Pages
         public void OnGet() { }
         [BindProperty]
         public User user { get; set; } = new User();
-        public string message { get; set; }
         public async Task<IActionResult> OnPostAsync()
         {
             user.Name = "randomname";
             var response = await _httpClient.PostAsJsonAsync("login", user);
             if (response.IsSuccessStatusCode)
             {
-                message = "Succes.";
-                return Page();
+                return RedirectToPage("/Index");
             }
-            message = "Error: " + await response.Content.ReadAsStringAsync();
             return Page();
         }
     }
