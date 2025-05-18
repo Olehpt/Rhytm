@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Projects\\Rhytm\\Rhytm\\wwwroot\\htmlpage.html",
+      "PackagePath": "staticwebassets\\htmlpage.html"
+    },
+    {
+      "Id": "D:\\Projects\\Rhytm\\Rhytm\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
       "Id": "D:\\Projects\\Rhytm\\Rhytm\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

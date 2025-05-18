@@ -868,6 +868,38 @@
   },
   {
     "ContainingType": "Rhytm.Controllers.UsersController",
+    "Method": "DeletePM",
+    "RelativePath": "api/Users/deletePM",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rhytm.Controllers.UsersController",
+    "Method": "GetPM",
+    "RelativePath": "api/Users/getPM",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rhytm.Controllers.UsersController",
     "Method": "Login",
     "RelativePath": "api/Users/login",
     "HttpMethod": "POST",
@@ -878,6 +910,43 @@
         "Name": "user",
         "Type": "Rhytm.Models.User",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rhytm.Controllers.UsersController",
+    "Method": "PostPM",
+    "RelativePath": "api/Users/postPM",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Rhytm.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Rhytm.Controllers.UsersController",
+    "Method": "PutPM",
+    "RelativePath": "api/Users/putPM",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Rhytm.Models.User",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

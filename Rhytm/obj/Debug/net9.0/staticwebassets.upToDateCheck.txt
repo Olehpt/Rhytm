@@ -4,6 +4,7 @@ D:\Projects\Rhytm\Rhytm\wwwroot\css\site.css
 D:\Projects\Rhytm\Rhytm\wwwroot\js\site.js
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Projects\Rhytm\Rhytm\wwwroot\js\JavaScript.js
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
@@ -26,6 +27,7 @@ D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 D:\Projects\Rhytm\Rhytm\wwwroot\css\mysyles.css
+D:\Projects\Rhytm\Rhytm\wwwroot\htmlpage.html
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,6 +63,8 @@ D:\Projects\Rhytm\Rhytm\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\css\mysyles.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\htmlpage.html
+wwwroot\js\JavaScript.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

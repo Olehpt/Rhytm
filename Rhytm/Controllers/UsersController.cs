@@ -210,8 +210,64 @@ namespace Rhytm.Controllers
             {
                 IsPersistent = true
             };
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,new ClaimsPrincipal(claimsIdentity), authProperties);
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
             //
+            return Ok(user);
+        }
+        //for postman
+        [HttpGet("getPM")]
+        public async Task<IActionResult> GetPM(int? id)
+        {
+            if (id == null)
+            {
+                var users = _context.User.ToList();
+                return Ok(users);
+            }
+            var user = await _context.User.FirstOrDefaultAsync(User => User.Id == id);
+            return Ok(user);
+        }
+        [HttpPost("postPM")]
+        public async Task<IActionResult> PostPM([FromBody] User user)
+        {
+            user.RoleId = 1;
+            user.SignUpDate = DateTime.Now;
+            user.ProfilePicturePath = null;
+            _context.Add(user);
+            await _context.SaveChangesAsync();
+            return Ok(user);
+        }
+        [HttpPut("putPM")]
+        public async Task<IActionResult> PutPM([FromBody] User? user, int? id)
+        {
+            if (user == null || id == null)
+            {
+                return BadRequest("no data");
+            }
+            var existingUser = await _context.User.FirstOrDefaultAsync(u => u.Id == id);
+            if (existingUser == null)
+            {
+                return NotFound("User not found");
+            }
+            existingUser.Name = user.Name;
+            existingUser.Email = user.Email;
+            existingUser.Password = user.Password;
+            _context.SaveChanges();
+            return Ok(existingUser);
+        }
+        [HttpDelete("deletePM")]
+        public async Task<IActionResult> DeletePM(int? id)
+        {
+            if (id == null)
+            {
+                return BadRequest("no data");
+            }
+            var user = await _context.User.FirstOrDefaultAsync(u => u.Id == id);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            _context.User.Remove(user);
+            await _context.SaveChangesAsync();
             return Ok(user);
         }
     }

@@ -24,8 +24,10 @@
     border-radius: 41px;
     width: 181px;
     height: 61px;
-    font-size:20px;
+    font-size: 20px;
+    display: inline-block !important;
 }
+
 
 .InputForm {
     display: flex;
